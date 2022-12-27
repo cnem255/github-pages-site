@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-    .frosted-glass {
-        @apply shadow-2xl shadow-current bg-white/5 backdrop-blur-md rounded-lg;
+    .frosted-glass-light {
+        @apply bg-white/80 backdrop-blur-lg;
+    }
+
+    .frosted-glass-dark {
+        @apply bg-black/80 backdrop-blur-lg;
     }
 
     .center {
@@ -21,5 +25,13 @@
 
     .card-md2 {
         @apply h-96 w-80;
+    }
+
+    .top-bar-ns {
+        @apply top-0 left-0 h-10 w-screen flex flex-row flex-nowrap;
+    }
+
+    .top-bar-s {
+        @apply top-0 left-0 h-10 w-screen flex flex-row flex-nowrap sticky;
     }
 }
