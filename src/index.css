@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .frosted-glass {
+        @apply shadow-2xl shadow-current bg-white/5 backdrop-blur-md rounded-lg;
+    }
+
+    .center {
+        @apply flex items-center justify-center;
+    }
+
+    .card-sm {
+        @apply h-36 w-28;
+    }
+
+    .card-md {
+        @apply h-64 w-48;
+    }
+
+    .card-md2 {
+        @apply h-96 w-80;
+    }
+}
