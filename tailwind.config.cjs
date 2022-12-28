@@ -17,7 +17,22 @@ module.exports = {
         fira_code: "'Fira Code', sans-serif",
         poppins: "'Poppins', sans-serif"
       },
+
+      daisyui: {
+        styled: true,
+        themes: true,
+        base: true,
+        utils: true,
+        logs: true,
+        rtl: false,
+        prefix: "",
+        darkTheme: "dark",
+        themes: [],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"),
+    require("tailwind-scrollbar"),
+  ],
 }

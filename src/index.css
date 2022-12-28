@@ -10,7 +10,7 @@
     }
 
     .frosted-glass-light-i {
-        @apply bg-white/60 backdrop-blur-lg;
+        @apply bg-white/80 backdrop-blur-lg;
     }
 
     .frosted-glass-dark {
@@ -18,16 +18,7 @@
     }
 
     .frosted-glass-dark-i {
-        @apply bg-black/60 backdrop-blur-lg;
-    }
-
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        @apply bg-black/80 backdrop-blur-lg;
     }
 
     .center {

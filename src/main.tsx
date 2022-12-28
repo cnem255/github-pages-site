@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Container from './components/Container'
+import Footer from './components/Footer'
 import Navbar from './components/NavBar'
 import './index.css'
 import About from './pages/About'
@@ -20,9 +21,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="scroll-smooth overflow-x-hidden bg-mountain bg-fixed bg-cover no-scrollbar">
+    <div className="scroll-smooth overflow-x-hidden bg-mountain bg-fixed bg-cover">
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </div>
   </React.StrictMode>,
 )
