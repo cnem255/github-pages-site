@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Oswald:wght@200;300;500&family=Quicksand:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@400;700&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Oswald:wght@200;300;500&family=Poppins:wght@300;400;500;700&family=Quicksand:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,15 +6,40 @@
 
 @layer components {
     .frosted-glass-light {
-        @apply bg-white/80 backdrop-blur-lg;
+        @apply bg-white/30 backdrop-blur-lg;
+    }
+
+    .frosted-glass-light-i {
+        @apply bg-white/60 backdrop-blur-lg;
     }
 
     .frosted-glass-dark {
-        @apply bg-black/80 backdrop-blur-lg;
+        @apply bg-black/30 backdrop-blur-lg;
+    }
+
+    .frosted-glass-dark-i {
+        @apply bg-black/60 backdrop-blur-lg;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 
     .center {
         @apply flex items-center justify-center;
+    }
+
+    .center-h {
+        @apply justify-center items-center flex ml-auto mr-auto; 
+    }
+
+    .center-right {
+        @apply justify-center items-center flex ml-[100-vw];
     }
 
     .card-sm {
