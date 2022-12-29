@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: 'about',
+    path: '/about',
     element: <About />
   },
 ])
@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <div className="">
       <Navbar />
       <RouterProvider router={router} />
-      <Footer />
+      <Footer titleClasses="select-none" linkClasses="link link-hover hover:link-info"/>
     </div>
   </React.StrictMode>,
 )
