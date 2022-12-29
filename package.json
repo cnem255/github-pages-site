@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
+    "@react-icons/all-files": "^4.1.0",
     "daisyui": "^2.46.0",
+    "feather-icons": "^4.29.0",
     "framer-motion": "^8.0.2",
+    "heroicons-react": "^1.4.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "postcss-100vh-fix": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
-    "sort-by": "^0.0.2"
+    "sort-by": "^0.0.2",
+    "tailwindcss-animated": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
