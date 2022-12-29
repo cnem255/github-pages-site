@@ -10,6 +10,10 @@ module.exports = {
         "mountain": "url('./assets/img/mountain.jpg')"
       },
 
+      screens: {
+        xs: '200px'
+      },
+
       fontFamily: {
         quicksand: "'Quicksand', serif",
         source_code_pro: "'Source Code Pro', monospace",
