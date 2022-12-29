@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function About() {
     let { scrollY } = useScroll();
-    let y = useTransform(scrollY, [0, 800], ["0%", "50%"]);
+    let y = useTransform(scrollY, [0, 800], ["0%", "25%"]);
 
     return (
         <div className="w-screen h-screen center">
