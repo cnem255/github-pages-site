@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Container from './components/Container'
 import Footer from './components/Footer'
 import Navbar from './components/NavBar'
 import './index.css'
-import About from './pages/About'
-import Home from './pages/Home'
+import About from '../public/About'
+import Home from '../public/Home'
 
 const router = createBrowserRouter([
   {
